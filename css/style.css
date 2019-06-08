@@ -140,6 +140,61 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width:400px) {
+  #home {
+    background: url(../images/bg1.png);
+    display: table;
+    height: 50%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+  #experience {
+    background: url(../images/bg2.png);
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    color: black;
+  }
+  #education {
+    background: url(../images/bg3.svg);
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+  .home h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .home h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .first-aboutp {
+    margin-top: 10px;
+  }
+
+}
+
 /* ============ */
 
 
