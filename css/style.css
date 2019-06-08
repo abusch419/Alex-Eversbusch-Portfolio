@@ -1,0 +1,150 @@
+﻿/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open-Sans' serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem
+}
+
+/* padded section */
+
+.pad-section {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+/* about me text */
+
+.home {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.home h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.about-me-btn {
+  line-height: 15px;
+  margin-top: 30px;
+  height: auto;
+  width: 100px;
+  border-color: #2e82d9!important;
+  color: #2e82d9;
+  transition: all .2s ease;
+}
+
+.about-me-btn:hover {
+  line-height: 15px;
+  margin-top: 30px;
+  height: auto;
+  width: 100px;
+  border-color: #2e82d9!important;
+  color: white;
+  background: #2e82d9;
+  transition: all .2s ease;
+}
+
+/* additional sections */
+
+#home {
+  background: url(../images/bg1.png) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.first-aboutp {
+  margin-top: 100px;
+}
+
+#about {
+  min-height: 500px;
+}
+
+#experience {
+  background: url(../images/bg2.png) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+}
+
+.resume-date {
+  min-width: none;
+}
+
+#education {
+  background: url(../images/bg3.svg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img-profile {
+  height: 60px;
+  width: auto;
+}
+
+@media (min-width:768px) {
+  section.resume-section {
+    min-height: 100vh
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem
+  }
+}
+
+@media (min-width:992px) {
+  section.resume-section {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important
+  }
+}
+
+/* ============ */
+
+
