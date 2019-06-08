@@ -1,5 +1,4 @@
-﻿
-* {
+﻿* {
   box-sizing: border-box;
 }
 
@@ -124,6 +123,83 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
 }
 
+.list-social-icons a {
+  color: #495057
+}
+
+.list-social-icons a:hover {
+  color: #bd5d38
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem
+}
+
+.list-icons {
+  font-size: 3rem
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #bd5d38
+}
+
+.card-container {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.card {
+  padding: 20px;
+  border: none;
+}
+
+.card-body {
+  padding-bottom: 0px;
+}
+
+.card-header {
+  width: 100%;
+  padding: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-img-top {
+  max-width: 90%;
+  max-height: auto;
+  position: relative;
+  vertical-align: middle;
+  left: 50%;
+  transform: translate(-50%);
+  /* height: 150px;
+  width: 150px; */
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.proj-btn {
+  margin-top: 5px;
+  height: auto;
+  width: 100px;
+  border-color: #2e82d9!important;
+  color: #2e82d9;
+  transition: all .2s ease;
+}
+
+.proj-btn:hover {
+  color: white;
+  background: #2e82d9;
+  transition: all .2s ease;
+}
+
+#r-link {
+  float: right;
+}
+
+#l-link {
+  float: left;
+}
+
 @media (min-width:768px) {
   section.resume-section {
     min-height: 100vh
@@ -147,6 +223,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 50%;
     position: relative;
     width: 100%;
+    margin-top: 76px;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -167,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   #education {
     background: url(../images/bg3.svg);
     display: table;
-    height: 800px;
+    height: 600px;
     position: relative;
     width: 100%;
     -webkit-background-size: contain;
@@ -181,20 +258,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     padding: 0;
   }
-
   .home h3 {
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 0;
   }
-
   .first-aboutp {
     margin-top: 10px;
   }
-
+  .list-inline-item:not(:last-child) {
+    margin-right: 0;
+  }
 }
-
-/* ============ */
-
-
