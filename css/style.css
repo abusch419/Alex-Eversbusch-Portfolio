@@ -7,6 +7,7 @@ html, body {
   width: 100%;
   font-family: 'Open-Sans' serif;
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
@@ -117,6 +118,10 @@ h1, h2, h3, h4, h5, h6, a {
   min-width: none;
 }
 
+#experience h2 {
+  margin-top: 50px;
+}
+
 #education {
   background: url(../images/bg5.jpg) no-repeat center center fixed;
   display: table;
@@ -127,6 +132,10 @@ h1, h2, h3, h4, h5, h6, a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#education h2 {
+  margin-top: 50px;
 }
 
 #aspirations {
@@ -169,6 +178,7 @@ h1, h2, h3, h4, h5, h6, a {
 .card-container {
   padding-right: 50px;
   padding-left: 50px;
+  margin-top: 50px;
 }
 
 .card {
@@ -363,7 +373,6 @@ h1, h2, h3, h4, h5, h6, a {
     background-size: contain;
     color: black;
   }
-
   #experience h2 {
     margin-top: 50px;
   }
@@ -378,11 +387,9 @@ h1, h2, h3, h4, h5, h6, a {
     -o-background-size: contain;
     background-size: contain;
   }
-
   #education h2 {
     margin-top: 50px;
   }
-
   #aspirations {
     background: url(../images/bg2.png);
     display: table;
@@ -394,7 +401,6 @@ h1, h2, h3, h4, h5, h6, a {
     -o-background-size: contain;
     background-size: contain;
   }
-
   #skills h2 {
     margin-top: 50px;
   }
@@ -412,7 +418,6 @@ h1, h2, h3, h4, h5, h6, a {
     margin-top: auto;
     padding: 0;
   }
-
   .home {
     margin-top: 100px;
     position: relative;
@@ -424,7 +429,6 @@ h1, h2, h3, h4, h5, h6, a {
   .list-inline-item:not(:last-child) {
     margin-right: 0;
   }
-
   .card-container {
     margin-top: 50px;
   }
