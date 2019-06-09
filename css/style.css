@@ -363,6 +363,10 @@ h1, h2, h3, h4, h5, h6, a {
     background-size: contain;
     color: black;
   }
+
+  #experience h2 {
+    margin-top: 50px;
+  }
   #education {
     background: url(../images/bg2.png);
     display: table;
@@ -375,6 +379,10 @@ h1, h2, h3, h4, h5, h6, a {
     background-size: contain;
   }
 
+  #education h2 {
+    margin-top: 50px;
+  }
+
   #aspirations {
     background: url(../images/bg2.png);
     display: table;
@@ -385,6 +393,10 @@ h1, h2, h3, h4, h5, h6, a {
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
+  }
+
+  #skills h2 {
+    margin-top: 50px;
   }
   .home h1 {
     font-size: 2em;
@@ -407,9 +419,13 @@ h1, h2, h3, h4, h5, h6, a {
     bottom: 120px;
   }
   .first-aboutp {
-    margin-top: 10px;
+    margin-top: 100px;
   }
   .list-inline-item:not(:last-child) {
     margin-right: 0;
+  }
+
+  .card-container {
+    margin-top: 50px;
   }
 }
