@@ -364,9 +364,21 @@ h1, h2, h3, h4, h5, h6, a {
     color: black;
   }
   #education {
-    background: url(../images/bg3.svg);
+    background: url(../images/bg2.png);
     display: table;
     height: 400px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  #aspirations {
+    background: url(../images/bg2.png);
+    display: table;
+    height: 100px;
     position: relative;
     width: 100%;
     -webkit-background-size: contain;
