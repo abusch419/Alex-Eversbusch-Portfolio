@@ -7,8 +7,11 @@ html, body {
   width: 100%;
   font-family: 'Open-Sans' serif;
 }
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -86,11 +89,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-  min-height: 500px;
+  color: #888888;
+  font-family: llxb;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  padding-bottom: 25px;
+  padding-top: 0px;
+  text-transform: none;
 }
 
 #experience {
-  background: url(../images/bg2.png) no-repeat center center fixed;
+  background: url(../images/bg7.jpg) no-repeat center center fixed;
   display: table;
   height: 800px;
   position: relative;
@@ -107,7 +118,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #education {
-  background: url(../images/bg3.svg) no-repeat center center fixed;
+  background: url(../images/bg5.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#aspirations {
+  background: url(../images/bg4.jpg) no-repeat center center fixed;
   display: table;
   height: 100px;
   position: relative;
@@ -128,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .list-social-icons a:hover {
-  color: #bd5d38
+  color: grey;
 }
 
 .list-social-icons a .fa-lg {
@@ -140,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #bd5d38
+  color: grey;
 }
 
 .card-container {
@@ -153,16 +176,64 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 
-.card-body {
+.card-text {
   padding-bottom: 0px;
+  color: #888888;
+  font-family: llxb;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 25px;
+  padding-top: 5px;
+  padding-left: 13px;
 }
 
 .card-header {
   width: 100%;
   padding: none;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+
+/* header shadow effect */
+
+.card-header {
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.card-header:before, .card-header:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  -moz-border-radius: 100px / 10px;
+  border-radius: 100px / 10px;
+}
+
+.card-header:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+  -moz-transform: skew(8deg) rotate(3deg);
+  -ms-transform: skew(8deg) rotate(3deg);
+  -o-transform: skew(8deg) rotate(3deg);
+  transform: skew(8deg) rotate(3deg);
+}
+
+/* card header shadow effect */
 
 .card-img-top {
   max-width: 90%;
@@ -176,6 +247,42 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
   margin-top: 15px;
 }
+
+/* card image shadow effect */
+
+.card-img-top {
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.card-img-top:before, .card-img-top:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  -moz-border-radius: 100px / 10px;
+  border-radius: 100px / 10px;
+}
+
+.card-img-top:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+  -moz-transform: skew(8deg) rotate(3deg);
+  -ms-transform: skew(8deg) rotate(3deg);
+  -o-transform: skew(8deg) rotate(3deg);
+  transform: skew(8deg) rotate(3deg);
+}
+
+/* card image shadow effect */
 
 .proj-btn {
   margin-top: 5px;
@@ -198,10 +305,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #l-link {
   float: left;
-}
-
-.portfolio-push {
-  height: 60px;
 }
 
 .nav-div {
